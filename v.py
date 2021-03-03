@@ -1,5 +1,4 @@
 
-import os
 '''
 질문은 
 https://discord.gg/sBUXRGc
@@ -1347,5 +1346,4 @@ async def on_message(message):
 async def change_message():
     await client.change_presence(activity=discord.Game(next(status)))
 
-access_token = os.environ['BOT_TOKEN']
-client.run(access_token)
+client.run(ODE2NjgwNTkzMTgxMjQ1NDUw.YD-fEg.HY6r4uDsIuMPBSYh-7EfYyaHZkM)

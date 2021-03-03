@@ -1,3 +1,5 @@
+
+
 '''
 질문은 
 https://discord.gg/sBUXRGc
@@ -1346,5 +1348,5 @@ async def on_message(message):
 async def change_message():
     await client.change_presence(activity=discord.Game(next(status)))
 
-
-client.run(token)
+access_token = os.environ["BOT_TOKEN"]
+client.run(access_token)

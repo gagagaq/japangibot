@@ -1,5 +1,5 @@
 
-
+import os
 '''
 질문은 
 https://discord.gg/sBUXRGc
@@ -18,7 +18,6 @@ import sqlite3
 import datetime
 import asyncio
 import configparser
-import os
 import json
 import string
 import random
